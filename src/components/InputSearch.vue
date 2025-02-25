@@ -1,9 +1,9 @@
 <script>
 export default {
     props: {
-        modelValue: { type: String, default: "" }, //prop nhận dữ liệu từ component cha (dùng để binding giá trị ô nhập liệu).
+        modelValue: { type: String, default: "" },
     },
-    emits: ["submit", "update:modelValue"], //sự kiện submit và sự kiện update
+    emits: ["submit", "update:modelValue"],
     methods: {
         updateModelValue(e) {
             this.$emit("update:modelValue", e.target.value);
@@ -24,4 +24,4 @@ export default {
             </button>
         </div>
     </div>
-</template>F
+</template>

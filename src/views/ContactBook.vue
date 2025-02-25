@@ -112,7 +112,6 @@ export default {
     mounted() {
         this.refreshList();
     },
-
 };
 </script>
 <style scoped>
